@@ -3,7 +3,7 @@
 //     final post = postFromJson(jsonString);
 
 import 'dart:convert';
-
+//Automatic class model to Json
 List<Post> postFromJson(String str) => List<Post>.from(json.decode(str).map((x) => Post.fromJson(x)));
 
 String postToJson(List<Post> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
