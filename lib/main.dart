@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/views/home_page.dart';
+import 'package:flutter_application_1/views/main_menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +19,6 @@ class MyApp extends StatelessWidget {
               centerTitle: true,
               titleTextStyle: TextStyle(color: Colors.white, fontSize: 20)),
         ),
-        home: const HomePage());
+        home: MainMenu());
   }
 }
